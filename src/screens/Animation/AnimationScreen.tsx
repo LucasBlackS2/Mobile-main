@@ -50,7 +50,7 @@ export function AnimationScreen() {
     <Background>
       <Animated.View style={styles.container}>
         <Animated.Image
-          source={require('../../../../assets/favicon.png')}
+          source={require('../../../assets/favicon.png')}
           style={[
             styles.logo,
             {

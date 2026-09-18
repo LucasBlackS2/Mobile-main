@@ -45,7 +45,7 @@ interface CheckoutPaymentModalProps {
 
 const METODOS: MetodoPagamento[] = ['pix', 'credito', 'debito', 'dinheiro'];
 
-const PIX_QR_CODE = require('../../../../assets/pix-qrcode.png');
+const PIX_QR_CODE = require('../../../assets/pix-qrcode.png');
 
 function PixQrCode() {
   return (
