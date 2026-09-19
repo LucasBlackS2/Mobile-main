@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { BottomTabBar } from './BottomTabBar';
 
 type Navigation = {
   navigate: (screen: string) => void;
@@ -45,7 +46,7 @@ export default function EscolhaUsuarioScreen({
         onPress={handleContinuar}
         disabled={!escolha}
       >
-        <Text style={styles.buttonText}>Continuar</Text>
+        <BottomTabBar />
       </TouchableOpacity>
     </View>
   );
